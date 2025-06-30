@@ -17,7 +17,6 @@ const geologica = Geologica({
 export const metadata: Metadata = {
   title: "Finota - Personal Finance Tracker",
   description: "Modern, elegant finance tracking application with multi-language support",
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({

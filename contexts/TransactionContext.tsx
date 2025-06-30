@@ -40,23 +40,6 @@ const defaultTransactions: Transaction[] = [
     type: "expense",
     date: "2024-01-14",
   },
-  {
-    id: "4",
-    description: "Freelance Project",
-    amount: 800,
-    category: "Freelance",
-    type: "income",
-    date: "2024-01-13",
-    notes: "Web development project",
-  },
-  {
-    id: "5",
-    description: "Gas",
-    amount: 45,
-    category: "Transport",
-    type: "expense",
-    date: "2024-01-12",
-  },
 ]
 
 interface TransactionContextType {

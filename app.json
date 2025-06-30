@@ -22,19 +22,12 @@
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
     },
-    "plugins": [
-      "expo-router",
-      "expo-font",
-      [
-        "expo-notifications",
-        {
-          "icon": "./assets/notification-icon.png",
-          "color": "#22C55E"
-        }
-      ]
-    ],
-    "scheme": "finota"
+    "plugins": ["expo-router", "expo-font"],
+    "experiments": {
+      "typedRoutes": true
+    }
   }
 }
